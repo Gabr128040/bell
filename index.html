@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Amor</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+</style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Galeria de Fotos -->
+    <div class="carousel">
+      <div class="slides">
+        <img src="c.jpg" alt="Foto 1">
+        <img src="d.jpg" alt="Foto 2">
+        <img src="a.jpg" alt="Foto 3">
+        <img src="b.jpg" alt="Foto 3">
+        <img src="e.jpg" alt="Foto 3">
+        <img src="f.jpg" alt="Foto 3">
+        <img src="g.jpg" alt="Foto 3">
+        <img src="h.jpg" alt="Foto 3">
+        <img src="i.jpg" alt="Foto 3">
+        <img src="j.jpg" alt="Foto 3">
+        <img src="k.jpg" alt="Foto 3">
+      </div>
+      <div class="navigation">
+        <button id="prev">❮</button>
+        <button id="next">❯</button>
+      </div>
+    </div>
+
+    <!-- Mensagem Romântica -->
+    <div class="message">
+      <h2><span id="name">Biel e Bia</span></h2>
+      <p class="dec">
+        Com você eu não preciso de muito pra ser feliz. Só preciso de você pra gente ficar dividindo o sofá, vendo filme e rindo de coisas que só a gente entende. Eu amo amar você! 💖
+      </p>
+    </div>
+
+    <!-- Contador de Relacionamento -->
+    <div class="counter">
+      <h3 class="cm">Compartilhando momentos há:</h3>
+      <div class="time">
+        <div class="ty"><span class="ct" id="years">01</span> anos</div>
+        <div class="ty"><span class="ct" id="months">03</span> meses</div>
+        <div class="ty"><span class="ct" id="days">16</span> dias</div>
+        <div class="ty"><span class="ct" id="hours">19</span> horas</div>
+        <div class="ty"><span class="ct" id="minutes">57</span> minutos</div>
+        <div class="ty"><span class="ct" id="seconds">46</span> segundos</div>
+      </div>
+    </div>
+    
+    <div class="music-player-modern">
+  <div class="track-info">
+    <h3 id="track-title">P.S I LOVE YOU</h3>
+    <p id="artist-name">Paul Partohap</p>
+  </div>
+  <audio id="audio-modern" src="lovu.mp3"></audio>
+  <div class="progress-container-modern">
+    <span id="current-time">0:00</span>
+    <input type="range" id="progress-bar-modern" min="0" max="100" value="0" />
+    <span id="total-duration">0:00</span>
+  </div>
+  <div class="controls-modern">
+      
+    <button id="play-pause-btn">
+  <span class="material-icons" id="play-pause-icon">play_arrow</span>
+</button>
+<audio id="audio-modern" src="audio/lovu.mp3"></audio>
+    
+    </div>
+</div>
+    
+  </div>  
+   
+  <script src="script.js"></script>
+</body>
+</html>
